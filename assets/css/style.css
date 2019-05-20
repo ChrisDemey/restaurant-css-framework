@@ -1,0 +1,178 @@
+body {
+  background-image: url("../img/fog-forest.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-fluid {
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+  background-color: #fff9d6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Suez One', serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.container-fluid img {
+  width: 150px;
+}
+
+.container-fluid h1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7px;
+  font-size: 4em;
+}
+
+nav {
+  background-color: rgba(36, 36, 36, 0.781);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav .nav-link:hover {
+  color: black;
+  background-color: #fff9d6;
+  border-radius: 25px;
+}
+
+nav a {
+  color: white;
+}
+
+.jumbotron {
+  margin: 0px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.301);
+  border-radius: 0px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.897)), to(rgba(0, 0, 0, 0.616))), url("../img/loija-nguyen-1281897-unsplash.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/loija-nguyen-1281897-unsplash.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/loija-nguyen-1281897-unsplash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/loija-nguyen-1281897-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+}
+
+.jumbotron h1 p {
+  text-shadow: 0px 0px 2px black;
+}
+
+.jumbotron .boutoncontact {
+  background-color: #fff9d6;
+  border: 0px;
+  color: #1b1b1b;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  padding-bottom: 50px;
+  margin-top: 50px;
+  /*border: 3px solid green;*/
+}
+
+.cardsnews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cardup,
+.cardown {
+  color: white;
+  border-radius: 0px;
+  border: 0px;
+  text-shadow: 0px 0px 2px black;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+}
+
+.cardup .card-title,
+.cardup .card-subtitle,
+.cardown .card-title,
+.cardown .card-subtitle {
+  text-align: center;
+}
+
+.cardup h6,
+.cardown h6 {
+  color: #fff9d6;
+}
+
+.cardup p,
+.cardown p {
+  text-align: justify;
+}
+
+.cardup {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.849)), to(rgba(0, 0, 0, 0.45))), url("../img/ricardo-alfaro-1579690-unsplash.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.45)), url("../img/ricardo-alfaro-1579690-unsplash.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.45)), url("../img/ricardo-alfaro-1579690-unsplash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.849), rgba(0, 0, 0, 0.45)), url("../img/ricardo-alfaro-1579690-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cardup .btnmenus {
+  background-color: #fffce1;
+  color: black;
+  border: 0px;
+  text-shadow: 0px 0px 0px black;
+}
+
+.cardup .badge-primary {
+  text-shadow: 0px 0px 0px black;
+}
+
+.cardown {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0.45))), url("../img/jon-tyson-705017-unsplash.jpg");
+  background: -webkit-linear-gradient(black, rgba(0, 0, 0, 0.45)), url("../img/jon-tyson-705017-unsplash.jpg");
+  background: -o-linear-gradient(black, rgba(0, 0, 0, 0.45)), url("../img/jon-tyson-705017-unsplash.jpg");
+  background: linear-gradient(black, rgba(0, 0, 0, 0.45)), url("../img/jon-tyson-705017-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 640px) {
+  .leftboar, .rightboar {
+    display: none;
+  }
+  .restoname {
+    font-size: 8px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .jumbotron, .container, .cardup {
+    margin-bottom: 15px;
+  }
+}

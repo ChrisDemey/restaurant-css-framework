@@ -1,0 +1,153 @@
+body {
+  background-image: url("../../assets/img/fog-forest.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container-fluid {
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+  background-color: #fff9d6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Suez One', serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.container-fluid img {
+  width: 150px;
+}
+
+.container-fluid h1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7px;
+  font-size: 4em;
+}
+
+nav {
+  background-color: rgba(36, 36, 36, 0.781);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav .nav-link:hover {
+  color: black;
+  background-color: #fff9d6;
+  border-radius: 25px;
+}
+
+nav a {
+  color: white;
+}
+
+.menus {
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.viandeleger, .viandelourde, .accompagnement, .drink, .christmas {
+  background-color: #fff9d6;
+  text-shadow: 0px 0px 5px black;
+  margin: 15px;
+  -webkit-box-shadow: 0px 0px 10px black;
+          box-shadow: 0px 0px 10px black;
+}
+
+.viandeleger .menutitle, .viandelourde .menutitle, .accompagnement .menutitle, .drink .menutitle, .christmas .menutitle {
+  font-size: 2em;
+  text-align: center;
+}
+
+.christmas {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.842)), to(rgba(0, 0, 0, 0.616))), url("../img/henning-borgersen-1468369-unsplash.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.616)), url("../img/henning-borgersen-1468369-unsplash.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.616)), url("../img/henning-borgersen-1468369-unsplash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.616)), url("../img/henning-borgersen-1468369-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.viandeleger {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.842)), to(rgba(0, 0, 0, 0.616))), url("../img/viandeleger.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.616)), url("../img/viandeleger.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.616)), url("../img/viandeleger.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.616)), url("../img/viandeleger.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.viandeleger .badge-primary {
+  text-shadow: 0px 0px 0px black;
+}
+
+.viandelourde {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.897)), to(rgba(0, 0, 0, 0.616))), url("../img/viandlourd.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/viandlourd.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/viandlourd.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/viandlourd.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.accompagnement {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.897)), to(rgba(0, 0, 0, 0.616))), url("../img/salads.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/salads.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/salads.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/salads.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.drink {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.897)), to(rgba(0, 0, 0, 0.616))), url("../img/drinks.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/drinks.jpg");
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/drinks.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.897), rgba(0, 0, 0, 0.616)), url("../img/drinks.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.list-group-item {
+  background: transparent;
+  font-size: 18px;
+}
+
+.badge-pill {
+  background-color: #fff9d6;
+  color: black;
+  text-shadow: 0px 0px 0px black;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 640px) {
+  .leftboar, .rightboar {
+    display: none;
+  }
+  .restoname {
+    font-size: 8px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,101 @@
+body {
+    background-image: url("../img/fog-forest.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-fluid {
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(255, 249, 214);
+    display: flex;
+    font-family: 'Suez One', serif;
+    text-align: center;
+    padding: 10px;
+    img {
+        width: 150px;
+    }
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 7px;
+        font-size: 4em;
+    }
+}
+
+.navlogo {
+    background-color: rgba(36, 36, 36, 0.781);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    .nav-link:hover{
+        color: black;
+        background-color: rgb(255, 249, 214);
+        border-radius: 25px;
+    }
+    a {
+        color: white;
+    }
+}
+
+nav {
+    background-color: rgba(36, 36, 36, 0.781);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    .nav-link:hover{
+        color: black;
+        background-color: rgb(255, 249, 214);
+        border-radius: 25px;
+    }
+    a {
+        color: white;
+    }
+}
+
+.photobloc {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .nav-pills{
+        
+    }
+    /*boutons pages non actif*/
+    .nav-item{
+        background-color: rgb(32, 32, 32);
+        margin-bottom: 25px;
+    }
+    .nav-link{
+        border-radius: 0px;
+        color: rgb(255, 249, 214);
+    }
+    /*bouton page actif*/
+    .nav-link.active{
+        background-color: rgb(255, 249, 214);
+        color: black;
+    }
+    .photogallery{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .leftboar, .rightboar{
+        display: none;
+    }
+    .restoname{
+        font-size: 8px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .photobloc .col-md-4{
+        padding: 10px;
+    }
+}

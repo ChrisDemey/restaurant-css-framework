@@ -1,0 +1,92 @@
+body {
+    background-image: url("../img/fog-forest.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-fluid {
+    box-shadow: 0px 0px 10px black;
+    background-color: rgb(255, 249, 214);
+    display: flex;
+    font-family: 'Suez One', serif;
+    text-align: center;
+    padding: 10px;
+    img {
+        width: 150px;
+    }
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 7px;
+        font-size: 4em;
+    }
+}
+
+nav {
+    background-color: rgba(36, 36, 36, 0.781);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    .nav-link:hover{
+        color: black;
+        background-color: rgb(255, 249, 214);
+        border-radius: 25px;
+    }
+    a {
+        color: white;
+    }
+}
+
+.formulaire {
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 30px;
+    /*border: 3px solid green;*/
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.692)
+    ),url("../img/forest.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 10px black;
+    .form-control{
+        border: 0px solid white;
+        border-radius: 0px;
+        background-color: rgba(255, 255, 255, 0.801);
+        
+    }
+    .btnsubmit{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+        background-color: rgb(255, 249, 214);
+        border: 0px;
+        width: 100px;
+        &:hover{
+            box-shadow: 0px 0px 10px white;
+            transform: scale(1.1);
+        }
+    }
+}
+@media screen and (max-width: 640px) {
+    .leftboar, .rightboar{
+        display: none;
+    }
+    .restoname{
+        font-size: 8px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+}
